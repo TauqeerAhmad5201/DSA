@@ -13,8 +13,8 @@ int main()
     cin>>*(*(p+0)+0);                      //Collectcing input 
     cout<<"*(*(p+0)+0) : "<<*(*(p+0)+0);
     cout<<endl;
-    cin>>p[0][0];                          //Collectcing input 
-    cout<<"\n*(*(p+0)+0) : "<<*(*(p+0)+0);
+    cout<<"\np[0][0] : "<<p[0][0];
+    cout<<"\n**p : "<<**p;
     cout<<"\np : "<<p;       
     cout<<"\n&p : "<<&p;
     cout<<"\n*p : "<<*p;

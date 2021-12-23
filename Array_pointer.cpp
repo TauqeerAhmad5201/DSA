@@ -10,9 +10,4 @@ int main(){
     cout<<"\n&a : "<<&a;          // a == &a[0]
     cout<<"\n&a[0] : "<<&a[0];
     cout<<"\n&a[1] : "<<&a[1];
-    cout<<"\n*(&a[1]) : "<<*(&a[1]);
-    cout<<"\na+1 : "<<a+1; 
-    cout<<"\na+1 : "<<*(a+1);
-    cout<<endl;
-    return 0;
-}
+    cout<<"\n*(&a[1]) : "<<*(&a[
