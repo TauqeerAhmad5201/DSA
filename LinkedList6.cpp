@@ -10,8 +10,9 @@ void print(struct Node* p)
 {
     if (p==NULL) return;
     
-    cout<<""<<p->data;
     print(p->next);
+    cout<<""<<p->data;
+    
     cout<<endl;
 }
 void Insert(int data, int loc){
