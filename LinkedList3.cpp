@@ -18,11 +18,11 @@ void Insert(int data, int n){
         return ;
     }
     Node *temp2 = head;
-    for(int i=0; i<n-2; i++)                            // traversing the list 
+    for(int i=0; i<n-2; i++)                      //traversing
     {
         temp2 = temp2->next;
     }
-    temp1->next = temp2->next;
+    temp1->next = temp2->next;                    
     temp2->next = temp1;
 }
 void Print()
