@@ -1,4 +1,3 @@
-// #Queue using LinkedList
 #include <iostream>
 using namespace std;
 struct node
@@ -44,6 +43,7 @@ void display()
             temp = temp->next;
         }
     }
+}
     void dequeue()
     {
         struct node *temp;
@@ -81,4 +81,3 @@ void display()
 
         return 0;
     }
-    
