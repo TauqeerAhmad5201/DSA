@@ -11,7 +11,7 @@ BSTNode *GetNewNode(int data){
     newNode->left = newNode->right = NULL;
     return newNode;
 }
-void Insert(BSTNode *root, int data){
+BSTNode* Insert(BSTNode *root, int data){
     if(root == NULL){      //empty tree
         root = GetNewNode(data);
         return root;
@@ -22,6 +22,7 @@ void Insert(BSTNode *root, int data){
     else {
         root->right = Insert(root->right,data);
     }
+    return root;
 }
 bool Search(BSTNode *root, int data){
     if(root == NULL ) return false;
@@ -30,9 +31,9 @@ bool Search(BSTNode *root, int data){
 }
 int main(){
      BSTNode *root = NULL;
-     Insert(root, 15);
-     Insert(root, 15);
-     Insert(root, 15);
+    root = Insert(root, 15);
+    root = Insert(root, 15);
+    root = Insert(root, 15);
      return 0;
 }
 
