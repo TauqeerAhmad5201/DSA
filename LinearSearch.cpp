@@ -27,7 +27,7 @@ int main()
         {
             cout << "Number found at index " << i << "\n";
             found = 1;
-            break;
+            // break;  for finding single element
         }
     }
     if (found == 0)
